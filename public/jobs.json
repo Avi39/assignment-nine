@@ -1,0 +1,27 @@
+ [
+      {
+        "id": 1,
+        "name": "Software Engineer",
+        "available": 120,
+        "icon": "https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      },
+      {
+        "id": 2,
+        "name": "Data Scientist",
+        "available": 80,
+        "icon": "https://images.pexels.com/photos/4389656/pexels-photo-4389656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      },
+      {
+        "id": 3,
+        "name": "Product Manager",
+        "available": 50,
+        "icon": "https://images.pexels.com/photos/73933/pexels-photo-73933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      },
+      {
+        "id": 4,
+        "name": "Marketing Specialist",
+        "available": 30,
+        "icon": "https://images.pexels.com/photos/711009/pexels-photo-711009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      }
+    ]
+  

@@ -1,6 +1,9 @@
 import React from 'react';
-
+import './Home.css';
+import { useLoaderData } from 'react-router-dom';
+import JobCatagory from '../JobCatagory/JobCatagory';
 const Home = () => {
+    const jobsCategories = useLoaderData();
     return (
         <div>
              <section className='header-image-part'>
@@ -12,6 +15,17 @@ const Home = () => {
                 <div className='header-image'>
                     <img src="../../../public/All Images/man.png" alt="" />
                 </div>
+            </section>
+            <section className='job'>
+                <h2>Job Category List</h2>
+                <p className='job-p'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                <div className='jobscategory-container'>
+                {
+                    jobsCategories.map(jobsCategory=><JobCatagory key={jobsCategory.id} jobsCategory={jobsCategory}></JobCatagory>)
+                }
+
+                </div>
+               
             </section>
         </div>
     );

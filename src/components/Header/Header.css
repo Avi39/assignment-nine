@@ -19,35 +19,3 @@ nav a{
     background-color:  #9873FF;
     color: white;
 }
-.header-image-part{
-    display: flex;
-    align-items: center;
-}
-.header-paragraph{
-    font-style: normal;
-font-weight: 800;
-font-size: 40px;
-line-height: 70px;
-}
-.dream{
-    color: #9873FF;
-}
-.header-image img{
-    height: 600px;
-    width: 600px;
-}
-.get-btn{
-    width: 100px;
-    height: 50px;
-    border-radius: 7px;
-    background-color:  #9873FF;
-    color: white;
-    margin-right: 10px;
-}
-.paragraph-into{
-    font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 30px;
-color: #757575;
-}
