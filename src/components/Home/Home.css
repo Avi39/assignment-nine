@@ -50,3 +50,26 @@ color: #757575;
 .feature{
     margin-top: 100px;
 }
+@media screen and (max-width: 600px) {
+    .header-paragraph{
+        font-style: normal;
+    font-weight: 10px;
+    font-size: 40px;
+    line-height: 70px;
+    }
+    .jobscategory-container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 15px;
+        margin-left: 200px;
+    }
+    .job h2{
+        margin-left: 200px;
+        width: 100%;
+    }
+    .job-p{
+        margin-left: 200px;
+        width: 100%;
+    }
+    
+}
