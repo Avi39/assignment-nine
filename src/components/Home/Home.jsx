@@ -1,4 +1,5 @@
 import React from 'react';
+import banner from '../../assets/All-Images/man.png'
 import './Home.css';
 import { useLoaderData } from 'react-router-dom';
 import JobCatagory from '../JobCatagory/JobCatagory';
@@ -15,7 +16,7 @@ const Home = () => {
                     <button className='get-btn'>Get Started</button>
                 </div>
                 <div className='header-image'>
-                    <img src="../../../src/images/man.png" alt="" />
+                    <img src={banner}/>
                 </div>
             </section>
             <section className='job'>
