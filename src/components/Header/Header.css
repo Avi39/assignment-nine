@@ -19,3 +19,13 @@ nav a{
     background-color:  #9873FF;
     color: white;
 }
+@media screen and (max-width: 600px) {
+    .header{
+        width: 500px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .link{
+        width: 500px;
+    }
+}

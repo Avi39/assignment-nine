@@ -71,5 +71,17 @@ color: #757575;
         margin-left: 200px;
         width: 100%;
     }
-    
+     .feature-title{
+        margin-left: 200px;
+        width: 100%;
+     }
+     .jobInfo-container{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 100px;
+        column-gap: 300px;
+        margin-left: 100px;
+    }
+   
 }

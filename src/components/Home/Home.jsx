@@ -31,7 +31,7 @@ const Home = () => {
             </section>
 
             <section className='feature'> 
-                <h2>Featured Jobs</h2>
+                <h2 className='feature-title'>Featured Jobs</h2>
                 <p className='job-p'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 <div className='jobInfo-container'>
                     {
