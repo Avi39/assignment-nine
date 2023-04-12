@@ -1,0 +1,10 @@
+.job-info img{
+    width: 100px;
+}
+.btn-view{
+    background-color: #9873FF;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}

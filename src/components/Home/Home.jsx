@@ -2,8 +2,10 @@ import React from 'react';
 import './Home.css';
 import { useLoaderData } from 'react-router-dom';
 import JobCatagory from '../JobCatagory/JobCatagory';
+import JobInfo from '../JobInfo/JobInfo';
 const Home = () => {
     const jobsCategories = useLoaderData();
+    const jobInfos = useLoaderData();
     return (
         <div>
              <section className='header-image-part'>
@@ -26,6 +28,16 @@ const Home = () => {
 
                 </div>
                
+            </section>
+
+            <section className='feature'> 
+                <h2>Featured Jobs</h2>
+                <p className='job-p'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                <div className='jobInfo-container'>
+                    {
+                        jobInfos.map(jobInfo=><JobInfo key={jobInfo.id} jobInfo={jobInfo}></JobInfo>)
+                    }
+                </div>
             </section>
         </div>
     );
