@@ -15,7 +15,7 @@ const Home = () => {
                     <button className='get-btn'>Get Started</button>
                 </div>
                 <div className='header-image'>
-                    <img src="../../../public/All Images/man.png" alt="" />
+                    <img src="../../../src/images/man.png" alt="" />
                 </div>
             </section>
             <section className='job'>
