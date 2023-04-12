@@ -23,7 +23,7 @@ const JobDetails = () => {
                     <p>phone: <span className='details-info'>{jobDetails.phone}</span> </p>
                     <p>email: <span className='details-info'>{jobDetails.email}</span> </p>
                     <p>Address: <span className='details-info'>{jobDetails.location}</span> </p>
-
+                    <button className='btn-apply'>apply now</button>
                 </div>
             </div>
         </div>
