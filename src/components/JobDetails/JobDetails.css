@@ -1,0 +1,16 @@
+.details-info{
+    color: #757575;
+
+}
+.details-surname{
+    color: #1A1919;
+    font-weight: 800;
+}
+.job-details-all{
+    display: flex;
+    justify-content: space-between;
+}
+.job-details-right{
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+border-radius: 8px;
+}
