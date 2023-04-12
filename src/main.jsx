@@ -12,6 +12,7 @@ import JobsReview from './components/JobsReview/JobsReview';
 import JobDetails from './components/JobDetails/JobDetails';
 import Blog from './components/Blog/Blog';
 import Statics from './components/Statics/Statics';
+import ErrorPage from './components/Errorpage/ErrorPage';
 
 const router = createBrowserRouter([
   {
@@ -46,9 +47,16 @@ const router = createBrowserRouter([
       {
         path:'/statics',
         element:<Statics></Statics>
-      }
+      },
+      {
+        path: "/*",
+        element: <Home/>,
+         errorElement: <ErrorPage/>,
+      },
     ]
+   
   }
+  
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
